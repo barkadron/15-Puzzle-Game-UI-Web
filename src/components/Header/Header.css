@@ -1,11 +1,11 @@
 .header {
-  text-align: center;
-  background-color: var(--grey-1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(2vmin);
-  color: var(--white-1);
-  flex: 0 0 auto;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-1);
+    font-size: calc(2vmin);
+    text-align: center;
+    background-color: var(--grey-1);
 }
