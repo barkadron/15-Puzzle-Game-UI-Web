@@ -1,0 +1,21 @@
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    cursor: default;
+}
+
+.cell__empty {
+    background-color: unset;
+}
+
+.cell__active {
+    background-color: #f3dd68;
+    cursor: pointer;
+}
+
+.cell__active:hover {
+    background-color: #b5dcfb;
+    cursor: pointer;
+}
